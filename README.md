@@ -4,7 +4,7 @@
 
 ```lua
 {
-    "Manicharan01/mdr.nvim",
+    "Manicharan01/severance-mdr.nvim",
     lazy = false,
     priority = 1000,
     config = function()
@@ -17,7 +17,7 @@
 
 ```lua
 use {
-    "Manicharan01/mdr.nvim",
+    "Manicharan01/severance-mdr.nvim",
     config = function()
         require("mdr").setup()
     end
